@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+
+
+p{
+    color: #8f8f8f;
+}
+
+.big-heading{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/* section  */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* navrbar css */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-item{
+    padding: 0 20px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.7rem;
+}
+
+/* download button css */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute; 
+    left: 55%;
+}
+
+@media (max-width:990px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        width: 40%;
+        position: static;
+    }
+}
+
+
+/* feature 2 slide */
+
+#features{
+   position: relative;
+}
+
+.features-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.features-icon{
+    margin: 0 auto 0 auto;
+     color: #ef8172;
+     padding: 4.5%;
+}
+
+.features-info{
+    padding: 2%;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* <!-- Testimonials --> */
+
+#testimonials{
+
+   background-color: #ef8172;
+   color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-icon{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* call to action */
+
+
+
+/* footer section */
+
+
+.footer-icon{
+    margin: 10px;
+}
